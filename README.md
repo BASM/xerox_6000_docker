@@ -15,25 +15,8 @@ Manual install after build.sh:
 # ./attache.sh
 
 In the containter type:
-# sh INSTALL/ubuntu.sh
+# /etc/inid.d/cups start
+ (if need)
 
-Select SQLite3 for database
+Go to localhost:631 and config printer
 
-Say "yes" for autostart.
-
-After debug and testing you can deploy you image.
-1. Stop image:
-# ./stop.sh
-
-2. Save image to file
-# ./save.sh
-
-3. Copy the image to you home production server
-
-4. Load image:
-# ./load.sh
-
-5. Run image:
-# ./run.sh 
-
-PROFIT!!!
